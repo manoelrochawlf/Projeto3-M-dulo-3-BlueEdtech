@@ -1,0 +1,97 @@
+#all-rlx {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+    flex-wrap: wrap;   
+  }
+  
+  .card{
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .textimg {
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    width: 15rem;
+    padding: 5px;
+    color: #DCDCDC;
+  }
+  
+  .card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8%;
+  }
+  
+  
+  #idRlx {
+    width:250px;
+    border-radius: 0.8rem;
+    color: #006039;
+    border: 3px #006039 solid;
+  }
+  
+  .btn-adicionar {
+  
+    width: 90px;
+    background-color: transparent;
+    border: 1px solid #006039;
+    border-radius: 1rem;
+    color: #006039;
+    padding: 3px;
+  
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn_delete {
+  
+    width: 90px;
+    background-color: transparent;
+    border: 1px solid #006039;
+    border-radius: 1rem;
+    color: #006039;
+    padding: 3px;
+  
+  }
+  
+  .img-header {
+  
+      display: flex;
+      justify-content: center;
+      width: 90px;
+      height: 90px;
+  
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 25px auto;
+    max-width: 1110px;
+  }
+  
+  .relogio__badge {
+    background-color: #006039;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    color: aliceblue;
+    font-size: .8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: -9px;
+    left: -9px;
+  }

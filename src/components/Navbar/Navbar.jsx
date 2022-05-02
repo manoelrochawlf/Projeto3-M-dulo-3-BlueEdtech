@@ -1,10 +1,8 @@
-import './Home.css';
-import RolexList from 'RolexList';
+import './Navbar.css'
 
-function Home() {
-  return (
-    <div className="Home">
-      <header>
+function Navbar() {
+    return (
+        <header>
         <nav className="logo-rolex">
             <img src="assets/images/rolex.png" alt="Logo Rolex"/>
         </nav>
@@ -15,14 +13,8 @@ function Home() {
                 alt="Carrinho de compras"
                 />
             </div>  
-    </header>        
-    
-      <div className="Home__container">
-        <RolexList />
-      </div>
-    </div>
-    
-  );
+    </header>  
+    )
 }
-  
-  export default Home;
+
+export default Navbar;
